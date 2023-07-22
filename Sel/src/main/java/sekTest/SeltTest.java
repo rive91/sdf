@@ -10,7 +10,7 @@ public class SeltTest {
 		String exePath = "./Driver/chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath); //agregando la propiedad con la ruta del chrome driver
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.com");
+		driver.get("https://www.facebook.com");
 	}
 
 }
